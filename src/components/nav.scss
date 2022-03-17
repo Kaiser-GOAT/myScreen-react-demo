@@ -1,0 +1,48 @@
+@import '../shared/helper';
+
+a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(16, 9, 41);
+  border: px(1) solid #142e71;
+}
+
+.a::before {
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -ms-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+}
+.b::before {
+  transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+  -moz-transform: skewX(30deg);
+  -ms-transform: skewX(30deg);
+  -o-transform: skewX(30deg);
+}
+a {
+  width: px(127);
+  height: px(28);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #86affe;
+  z-index: 0;
+  text-decoration: none;
+  font-size: px(10);
+  font-weight: bold;
+  cursor: pointer;
+}
+a:hover {
+  color: #fff;
+  &::before {
+    background: rgb(15, 30, 85, 0.8);
+  }
+}
