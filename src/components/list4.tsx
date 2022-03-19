@@ -49,7 +49,7 @@ const List4 = () => {
           width: '100%',
           marginTop: px(20),
           padding: px(4),
-          fontSize: px(5),
+          fontSize: px(8),
           borderBottom: '2px solid #0e245c',
           justifyContent: 'space-between',
           alignItems: 'center',
@@ -61,7 +61,7 @@ const List4 = () => {
       <div
         ref={divRef}
         className="list"
-        style={{ overflow: 'auto', height: LIST_HEIGHT, fontSize: px(1) }}
+        style={{ overflow: 'auto', height: LIST_HEIGHT, fontSize: px(10) }}
       >
         {userData.length > 0 &&
           userData.map((item, index) => {

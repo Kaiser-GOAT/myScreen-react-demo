@@ -98,5 +98,5 @@ export default function DecorateThree() {
       run(node)
     }
   }, [])
-  return <div ref={canvasRef} />
+  return <div ref={canvasRef} style={{ background: '#040428' }} />
 }

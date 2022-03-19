@@ -19,7 +19,6 @@ export const Home = () => {
           <Chart1 />
         </section>
         <section className="section2">
-          <div className="section2Square"></div>
           <Chart2 />
         </section>
         <section className="section3">

@@ -100,20 +100,6 @@
     > .section2 {
       grid-area: box2;
       position: relative;
-      > .section2Square {
-        width: px(998)- (px(127) * 6);
-        height: px(7);
-        margin: 0 auto;
-        border-bottom: 2px solid #0e245c;
-        border-left: 2px solid #0e245c;
-        border-right: 2px solid #0e245c;
-        background: #010017;
-        transform: perspective(2em) rotateX(-3deg) translateY(-7px);
-        -webkit-transform: perspective(2em) rotateX(-3deg) translateY(-7px);
-        -moz-transform: perspective(2em) rotateX(-3deg) translateY(-7px);
-        -ms-transform: perspective(2em) rotateX(-3deg) translateY(-7px);
-        -o-transform: perspective(2em) rotateX(-3deg) translateY(-7px);
-      }
     }
     > .section3 {
       grid-area: box3;
@@ -131,7 +117,16 @@
   > .header {
     width: 100%;
     display: flex;
+    position: relative;
     justify-content: center;
+
+    > .datePicker {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      display: flex;
+      margin-right: px(10);
+    }
   }
   .navWrapper {
     width: px(990);

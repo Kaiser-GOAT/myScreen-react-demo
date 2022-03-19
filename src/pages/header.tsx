@@ -1,9 +1,14 @@
+import { DatePicker } from 'antd'
 import React from 'react'
 import { LeftNav, RightNav } from '../components/nav'
+import DateTime from '../components/Date'
 
 const header = () => {
   return (
     <div className="header">
+      <div className="datePicker">
+        <DateTime />
+      </div>
       <div className="navWrapper">
         <div style={{ display: 'flex' }}>
           <LeftNav>专题分析</LeftNav>
