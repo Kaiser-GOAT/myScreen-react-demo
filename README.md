@@ -19,5 +19,7 @@ yarn build
 ```bash
 yarn serve
 ```
+
+
 ```设计稿
-![](./src/images/1111.png)
+![](https://github.com/Kaiser-GOAT/myScreen-react-demo/blob/master/src/images/1111.png?raw=true)
