@@ -17,13 +17,14 @@
 .home {
   flex: 1;
   display: flex;
+  position: relative;
   flex-direction: column;
   > main {
     flex: 1;
     display: grid;
     color: #97b9eb;
     padding: px(4);
-    background: #050828;
+    background: rgba(5, 8, 40, 0.3);
     grid-template:
       'box1 box2 box3 box4' 215fr
       'box5 box2 box6 box4' 215fr / 444fr 499fr 252fr 187fr;

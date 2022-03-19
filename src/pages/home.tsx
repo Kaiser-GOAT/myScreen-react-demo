@@ -7,6 +7,8 @@ import Chart5 from '../components/chart5'
 import Chart3 from '../components/chart3'
 import Chart6 from '../components/chart6'
 import List4 from '../components/list4'
+import { px } from '../shared/px'
+import DecorateThree from '../components/threeBackground'
 
 export const Home = () => {
   return (
@@ -33,6 +35,19 @@ export const Home = () => {
           <Chart6 />
         </section>
       </main>
+      <div
+        style={{
+          position: 'absolute',
+          zIndex: -1,
+          height: window.innerHeight,
+          marginTop: -((window.innerHeight - px(470)) / 2),
+          width: window.innerWidth,
+          backgroundPosition: 'center',
+          overflow: 'hidden',
+        }}
+      >
+        <DecorateThree />
+      </div>
     </div>
   )
 }

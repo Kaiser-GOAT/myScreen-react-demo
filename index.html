@@ -11,7 +11,7 @@
     const clientHeight = document.documentElement.clientHeight
     const rate = 1413 / 474
     window.pageWidth = clientWidth / clientHeight > rate ? clientHeight * rate : clientWidth
-    const pageHeight = pageWidth / rate
+    window.pageHeight = pageWidth / rate
     const string = `
  <style>
   html{
