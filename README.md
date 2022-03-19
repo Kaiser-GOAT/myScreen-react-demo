@@ -20,4 +20,4 @@ yarn build
 yarn serve
 ```
 ```设计稿
-![](../../1111.png)
+![image](../../1111.png)
