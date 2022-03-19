@@ -22,4 +22,4 @@ yarn serve
 
 
 ```设计稿
-![](https://github.com/Kaiser-GOAT/myScreen-react-demo/blob/master/src/images/1111.png?raw=true)
+![image](https://github.com/Kaiser-GOAT/myScreen-react-demo/blob/master/src/images/1111.png?raw=true)
